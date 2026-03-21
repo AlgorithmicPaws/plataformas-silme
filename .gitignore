@@ -73,3 +73,13 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Asset Store packages
+/plataformas-slime/Assets/2D Adventure Background Pack/
+/plataformas-slime/Assets/2D Adventure Background Pack.meta
+/plataformas-slime/Assets/Cainos/
+/plataformas-slime/Assets/Cainos.meta
+/plataformas-slime/Assets/Pixel Adventure 1/
+/plataformas-slime/Assets/Pixel Adventure 1.meta
+/plataformas-slime/Assets/The Legend of Slim/
+/plataformas-slime/Assets/The Legend of Slim.meta
