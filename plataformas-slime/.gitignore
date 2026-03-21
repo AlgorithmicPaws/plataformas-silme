@@ -1,0 +1,61 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+*.log
+
+/MemoryCaptures/
+/Recordings/
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Addressables
+/Assets/AddressableAssetsData/*/*.bin*
+
+# Streaming Assets
+/Assets/StreamingAssets/aa.meta
+/Assets/StreamingAssets/aa/*
+
+# Asset Store packages
+/Assets/2D Adventure Background Pack/
+/Assets/2D Adventure Background Pack.meta
+/Assets/Cainos/
+/Assets/Cainos.meta
+/Assets/Pixel Adventure 1/
+/Assets/Pixel Adventure 1.meta
+/Assets/The Legend of Slim/
+/Assets/The Legend of Slim.meta
