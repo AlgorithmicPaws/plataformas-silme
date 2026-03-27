@@ -7,12 +7,14 @@ public class NewInput : MonoBehaviour
     // Se declaran las variables
     private PlayerInput playerInput;
     [HideInInspector] public float inputX;
+    private PlayerJump _playerJump;
 
     // Al inicio de juego
     private void Start()
     {
         // Se almacena en la variable el componente acorde de Unity
         playerInput = GetComponent<PlayerInput>();
+        _playerJump = GetComponent<PlayerJump>();
     }
 
     // Cada frame
@@ -22,13 +24,13 @@ public class NewInput : MonoBehaviour
         GetInput();
     }
 
-    public void Button(InputAction.CallbackContext context)
+    public void Jump(InputAction.CallbackContext context)
     {
         // Tres momentos: cuando se presiona, cuando se est� presionando y cuando se deja de presionar
         if (context.started)
         {
             // Forma de escribir en consola
-            Debug.Log("Shoot");
+            _playerJump.Jump();
         }
     }
 

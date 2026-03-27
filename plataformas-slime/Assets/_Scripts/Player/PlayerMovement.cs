@@ -25,5 +25,16 @@ public class PlayerMovement1 : MonoBehaviour
     public void PlayerMove()
     {
         _rigidbody.velocity = new Vector2(_newInput.inputX * speed, _rigidbody.velocity.y);
+        Flip();
+    }
+    public void Flip(){
+        if(_newInput.inputX > 0 )
+        {
+            transform.rotation = Quaternion.Euler(0,0,0);
+        }
+        else if (_newInput.inputX < 0 )
+        {
+            transform.rotation = Quaternion.Euler(0,180,0);
+        }
     }
 }
