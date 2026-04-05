@@ -17,6 +17,7 @@ public class PlayerAttack : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             _rb.AddForce(transform.up * bounceForce, ForceMode2D.Impulse);
+            collision.GetComponent<Animator>().SetBool("dieAnim", true);
             Destroy(collision.gameObject, 0.5f);
         }
     }
