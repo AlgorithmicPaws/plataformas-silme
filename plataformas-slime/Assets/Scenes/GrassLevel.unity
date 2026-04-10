@@ -2421,7 +2421,8 @@ GameObject:
   - component: {fileID: 752855825}
   - component: {fileID: 752855827}
   - component: {fileID: 752855826}
-  m_Layer: 0
+  - component: {fileID: 752855829}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2733,6 +2734,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5308f898f9cca8408cd83472928f4f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &752855829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752855815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae79152b3d1a8384881fa171e7fbb1e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  currentHealth: 0
 --- !u!1 &869988927
 GameObject:
   m_ObjectHideFlags: 0
@@ -2742,7 +2757,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 869988928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: shootPos
   m_TagString: Untagged
   m_Icon: {fileID: 7148428337604731935, guid: 0000000000000000d000000000000000, type: 0}
@@ -2930,7 +2945,8 @@ GameObject:
   - component: {fileID: 1618785959}
   - component: {fileID: 1618785958}
   - component: {fileID: 1618785963}
-  m_Layer: 0
+  - component: {fileID: 1618785964}
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -3142,6 +3158,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1618785964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618785957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbd149eaf31c2c64f8169b6d25bf3cf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1867742426
 GameObject:
   m_ObjectHideFlags: 0
