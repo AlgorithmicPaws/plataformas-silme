@@ -15,7 +15,10 @@ public class PlayerJump : MonoBehaviour
     }
 
     public void Jump()
-    {
-        _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+    {   
+            {
+        if(Mathf.Abs(_rigidbody.velocity.y) < 0.01f)
+            _rigidbody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+    }
     }
 }

@@ -29,7 +29,6 @@ public class NewInput : MonoBehaviour
         // Tres momentos: cuando se presiona, cuando se est� presionando y cuando se deja de presionar
         if (context.started)
         {
-            // Forma de escribir en consola
             _playerJump.Jump();
         }
     }

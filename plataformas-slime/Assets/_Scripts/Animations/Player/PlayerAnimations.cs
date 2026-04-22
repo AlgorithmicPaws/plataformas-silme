@@ -6,22 +6,32 @@ public class PlayerAnimations : MonoBehaviour
 {
     private Animator _animator;
     private NewInput _input;
+    private SpriteRenderer _spriteRenderer;
+    private Rigidbody2D _rigidbody;
 
-    // Start is called before the first frame update
     void Start()
     {
         _animator = GetComponent<Animator>();
         _input = GetComponent<NewInput>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         PlayerMoving();
+        PlayerJumping();
     }
 
     public void PlayerMoving()
     {
-        _animator.SetBool( name: "isMoving", _input.inputX != 0);
+        _animator.SetBool("isMoving", _input.inputX != 0);
     }
+
+    public void PlayerJumping()
+    {
+        _animator.SetFloat("isJumping", Mathf.Abs(_rigidbody.velocity.y));
+    }
+
+
 }
