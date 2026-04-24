@@ -3,7 +3,7 @@ guid: 996b95468dc1483458986cad31b0af56
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -123,6 +129,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -135,6 +142,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -2083,101 +2104,100 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chara00101_mini_50: -145829869
-      chara00101_mini_65: -812545274
+      chara00101_mini_0: -986179529
       chara00101_mini_1: -2016516504
-      chara00101_mini_87: -1634679189
-      chara00101_mini_71: 708737201
-      chara00101_mini_28: -253281275
-      chara00101_mini_53: -970524779
-      chara00101_mini_61: -798869860
+      chara00101_mini_10: 1726465643
       chara00101_mini_11: 3693915
-      chara00101_mini_70: -1663401256
-      chara00101_mini_54: 735288069
+      chara00101_mini_12: 1055560288
       chara00101_mini_13: 878899707
-      chara00101_mini_30: -1675530646
-      chara00101_mini_26: 141490388
-      chara00101_mini_29: -1178835665
-      chara00101_mini_72: -2006488479
-      chara00101_mini_27: 372975554
-      chara00101_mini_42: 709934250
+      chara00101_mini_14: -1842148556
+      chara00101_mini_15: -2061152317
+      chara00101_mini_16: -1505984508
       chara00101_mini_17: -955751385
-      chara00101_mini_52: -1742799480
-      chara00101_mini_39: -1110952334
-      chara00101_mini_46: -1721163666
+      chara00101_mini_18: 995384751
+      chara00101_mini_19: 2084555984
+      chara00101_mini_2: -1437883353
+      chara00101_mini_20: 2023689072
+      chara00101_mini_21: 172726012
+      chara00101_mini_22: -838246583
+      chara00101_mini_23: 1007362964
       chara00101_mini_24: 1361091593
       chara00101_mini_25: 1347371216
-      chara00101_mini_51: 487746247
-      chara00101_mini_44: -1558306128
-      chara00101_mini_47: 1101642510
-      chara00101_mini_68: -1475186676
-      chara00101_mini_64: 795359304
-      chara00101_mini_80: -585254608
-      chara00101_mini_23: 1007362964
-      chara00101_mini_74: 437880507
-      chara00101_mini_85: 929823277
-      chara00101_mini_2: -1437883353
-      chara00101_mini_0: -986179529
-      chara00101_mini_6: -1794429817
-      chara00101_mini_78: 752611998
-      chara00101_mini_8: -861668767
-      chara00101_mini_38: 1718486612
-      chara00101_mini_48: -536648951
-      chara00101_mini_7: -630223980
-      chara00101_mini_5: -1176924504
-      chara00101_mini_36: -2112821885
-      chara00101_mini_55: 1399264195
-      chara00101_mini_63: 741081344
-      chara00101_mini_37: 929361929
-      chara00101_mini_45: 1042874794
-      chara00101_mini_18: 995384751
-      chara00101_mini_4: 1403124340
-      chara00101_mini_91: -1863881717
-      chara00101_mini_21: 172726012
-      chara00101_mini_14: -1842148556
-      chara00101_mini_34: 540513457
-      chara00101_mini_57: 285885009
-      chara00101_mini_59: 2088557116
-      chara00101_mini_88: 2011752712
-      chara00101_mini_40: -1255099294
-      chara00101_mini_19: 2084555984
-      chara00101_mini_32: -1684405809
-      chara00101_mini_81: 856717423
-      chara00101_mini_90: -1799480546
-      chara00101_mini_58: -976378142
-      chara00101_mini_79: -1844953524
-      chara00101_mini_56: 1584291824
-      chara00101_mini_82: -2006290977
-      chara00101_mini_15: -2061152317
-      chara00101_mini_9: -32416383
-      chara00101_mini_12: 1055560288
-      chara00101_mini_86: 664776923
-      chara00101_mini_84: -1943974339
-      chara00101_mini_49: 1340940149
-      chara00101_mini_16: -1505984508
-      chara00101_mini_20: 2023689072
-      chara00101_mini_43: 1789768572
-      chara00101_mini_10: 1726465643
-      chara00101_mini_76: -1984263188
-      chara00101_mini_22: -838246583
-      chara00101_mini_41: -768707882
-      chara00101_mini_67: 2013752002
-      chara00101_mini_33: -1869945328
-      chara00101_mini_75: 900194071
-      chara00101_mini_62: 307352709
-      chara00101_mini_73: 1824362826
-      chara00101_mini_66: -1639915842
-      chara00101_mini_31: 1373525527
-      chara00101_mini_77: -2066156748
-      chara00101_mini_35: -360346985
-      chara00101_mini_89: -224116779
-      chara00101_mini_60: -1581949608
-      chara00101_mini_83: 1654647076
+      chara00101_mini_26: 141490388
+      chara00101_mini_27: 372975554
+      chara00101_mini_28: -253281275
+      chara00101_mini_29: -1178835665
       chara00101_mini_3: 2114779921
+      chara00101_mini_30: -1675530646
+      chara00101_mini_31: 1373525527
+      chara00101_mini_32: -1684405809
+      chara00101_mini_33: -1869945328
+      chara00101_mini_34: 540513457
+      chara00101_mini_35: -360346985
+      chara00101_mini_36: -2112821885
+      chara00101_mini_37: 929361929
+      chara00101_mini_38: 1718486612
+      chara00101_mini_39: -1110952334
+      chara00101_mini_4: 1403124340
+      chara00101_mini_40: -1255099294
+      chara00101_mini_41: -768707882
+      chara00101_mini_42: 709934250
+      chara00101_mini_43: 1789768572
+      chara00101_mini_44: -1558306128
+      chara00101_mini_45: 1042874794
+      chara00101_mini_46: -1721163666
+      chara00101_mini_47: 1101642510
+      chara00101_mini_48: -536648951
+      chara00101_mini_49: 1340940149
+      chara00101_mini_5: -1176924504
+      chara00101_mini_50: -145829869
+      chara00101_mini_51: 487746247
+      chara00101_mini_52: -1742799480
+      chara00101_mini_53: -970524779
+      chara00101_mini_54: 735288069
+      chara00101_mini_55: 1399264195
+      chara00101_mini_56: 1584291824
+      chara00101_mini_57: 285885009
+      chara00101_mini_58: -976378142
+      chara00101_mini_59: 2088557116
+      chara00101_mini_6: -1794429817
+      chara00101_mini_60: -1581949608
+      chara00101_mini_61: -798869860
+      chara00101_mini_62: 307352709
+      chara00101_mini_63: 741081344
+      chara00101_mini_64: 795359304
+      chara00101_mini_65: -812545274
+      chara00101_mini_66: -1639915842
+      chara00101_mini_67: 2013752002
+      chara00101_mini_68: -1475186676
       chara00101_mini_69: -609504860
-  spritePackingTag: 
+      chara00101_mini_7: -630223980
+      chara00101_mini_70: -1663401256
+      chara00101_mini_71: 708737201
+      chara00101_mini_72: -2006488479
+      chara00101_mini_73: 1824362826
+      chara00101_mini_74: 437880507
+      chara00101_mini_75: 900194071
+      chara00101_mini_76: -1984263188
+      chara00101_mini_77: -2066156748
+      chara00101_mini_78: 752611998
+      chara00101_mini_79: -1844953524
+      chara00101_mini_8: -861668767
+      chara00101_mini_80: -585254608
+      chara00101_mini_81: 856717423
+      chara00101_mini_82: -2006290977
+      chara00101_mini_83: 1654647076
+      chara00101_mini_84: -1943974339
+      chara00101_mini_85: 929823277
+      chara00101_mini_86: 664776923
+      chara00101_mini_87: -1634679189
+      chara00101_mini_88: 2011752712
+      chara00101_mini_89: -224116779
+      chara00101_mini_9: -32416383
+      chara00101_mini_90: -1799480546
+      chara00101_mini_91: -1863881717
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

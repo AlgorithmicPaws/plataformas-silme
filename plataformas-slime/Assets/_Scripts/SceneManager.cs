@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
 {
     public void StartGame()
     {
+        PlayerStats.Score = 0;
         UnityEngine.SceneManagement.SceneManager.LoadScene(1);
     }
 
