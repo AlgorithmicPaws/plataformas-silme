@@ -25,6 +25,7 @@ public class Bullet : MonoBehaviour
         {
             Destroy(collision.gameObject, 0.1f);
             UIManager.instance?.UpdateTextScore(1);
+            MissionEvents.EnemyKilled();
         }
     }
 }

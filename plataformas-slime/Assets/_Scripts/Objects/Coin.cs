@@ -13,6 +13,7 @@ public class Coin : MonoBehaviour
                 AudioSource.PlayClipAtPoint(collectSFX, transform.position);
 
             UIManager.instance.UpdateTextScore(coinScore);
+            MissionEvents.CoinCollected();
             Destroy(gameObject);
         }
     }

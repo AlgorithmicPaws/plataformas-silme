@@ -20,6 +20,7 @@ public class PlayerAttack : MonoBehaviour
             collision.GetComponent<Animator>().SetBool("dieAnim", true);
             Destroy(collision.gameObject, 0.5f);
             UIManager.instance?.UpdateTextScore(1);
+            MissionEvents.EnemyKilled();
         }
     }
 }
